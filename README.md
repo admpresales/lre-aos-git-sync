@@ -1,4 +1,4 @@
-# AOS_LRE_Synch
+# lre-aos-git-sync
 This repo has two sub folders
 
 scripts- where the vugen script and all files are contained
