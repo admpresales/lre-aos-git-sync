@@ -10,7 +10,7 @@ This job will synchronize both the vugen script and the test (YAML file) with Lo
 This repo is also utilized with another job in jenkins, 'LoadRunner Enterprise Performance Validation'
 This job clones the git repo containing the scripts and yaml test and create the scenario to be executed by LRE on the fly.
 
-#Limitations:
+Limitations:
 
 Because VuGen has limitations in committing to git repos (it can only commit to root), in order to make a change in VuGen and commit/push to this repo you will first
 need to clone this repo to local, then instead of doing a "commit" from VuGen, you will need to File>Save As to the local repo/scripts folder. Then using any Git UI tool or CLI, commit/push to the remote, in this case, this repo in the devops container
